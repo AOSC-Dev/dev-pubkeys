@@ -1,0 +1,12 @@
+[Unit]
+Description=Download latest pubkeys
+After=network-online.target
+
+[Service]
+User=aosc
+Type=oneshot
+# Home of user
+Environment="HOME=/home/aosc"
+WorkingDirectory=/home/aosc/.update_pubkeys
+ExecStart=/home/aosc/.update_pubkeys/update.sh
+SuccessExitStatus=0

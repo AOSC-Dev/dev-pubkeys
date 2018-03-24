@@ -1,0 +1,9 @@
+[Unit]
+Description=Daily update of SSH pubkeys
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timer.target
