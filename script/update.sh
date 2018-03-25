@@ -21,8 +21,13 @@ git checkout master;
 popd;
 
 # Update pubkeys
-cat $SSH_DIR/$AUTHORIZED_KEYS > $TEMP_FILE;
+if [ -f $SSH_DIR/$AUTHORIZED_KEYS ]; then
+	cat $SSH_DIR/$AUTHORIZED_KEYS > $TEMP_FILE;
+fi
 cat $LOCAL_DIR/authorized_keys >> $TEMP_FILE;
+if [ ! -d $SSH_DIR ]; then
+	mkdir -p $SSH_DIR;
+fi
 awk '!seen[$0]++' $TEMP_FILE > $SSH_DIR/$AUTHORIZED_KEYS; # Remove duplicated keys
 rm $TEMP_FILE; # Remove temp file
 
