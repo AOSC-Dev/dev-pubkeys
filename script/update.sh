@@ -11,7 +11,7 @@ TEMP_FILE=temp_keys;
 # Pull the pubkeys
 if [ ! -d $LOCAL_DIR ]; then # If the directory does not exist.
 	git clone $PUBKEY_REPO -b $BRANCH $LOCAL_DIR;
-elif [ ! -d $LOCAL_DIR/.git ]; then # If the direcotry isn't a git repo.
+elif [ ! -d $LOCAL_DIR/.git ]; then # If the directory isn't a git repo.
 	rm -Rf $LOCAL_DIR;
 	git clone $PUBKEY_REPO -B $BRANCH $LOCAL_DIR;
 fi
