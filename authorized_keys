@@ -82,3 +82,4 @@ sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNza
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIInTLCHzSgeC3kyCrgLHMJJgzAVlaffZ97ntJkNGfVby runhua.he@oss.cipunited.com
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIET0lAiy++h/vcClwbTxCcpkyRDwQJM2O4GbOBRjKkmz salieri@Amadeus
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB3VQ5XaCdHXjCfPd6z62jKwtyT62XImy/kOkX3VCilC suyun@fireeye
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDaXr7+WtDEUrJgq+b2F4i4QMbmtkf9CaUwloya/V/OM maintainers@aosc.io
