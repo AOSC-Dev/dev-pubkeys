@@ -10,4 +10,4 @@ and contributors, if you would like your public key(s) added to the record...
 Deploy pubkey update script on build bot
 ----------------------------------------
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/AOSC-Dev/dev-pubkeys/master/install.sh)"`
+`bash -c "$(curl -fsSL https://raw.githubusercontent.com/AOSC-Dev/dev-pubkeys/master/install.sh)"`
