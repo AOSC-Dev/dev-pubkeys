@@ -1,13 +1,14 @@
-Public Keys of AOSC Developers and Contributors
-===============================================
+Public Keys of AOSC Contributors
+===
 
-This repository contains a list of public keys collected from AOSC developers
-and contributors, if you would like your public key(s) added to the record...
+This repository contains public keys owned by AOSC contributors. If you would like your public key(s) added to the record...
 
-- Make a code/artwork/creativity contribution to any of our projects.
-- Contact Mingcong Bai <[jeffbai@aosc.io](mailto:jeffbai@aosc.io)>.
+- Make a contribution to any of our projects.
+- We will come to you with information.
 
-Deploy pubkey update script on build bot
-----------------------------------------
+Deployment on Buildbots
+---
 
-`bash -c "$(curl -fsSL https://raw.githubusercontent.com/AOSC-Dev/dev-pubkeys/master/install.sh)"`
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/AOSC-Dev/dev-pubkeys/master/install.sh)"
+```
